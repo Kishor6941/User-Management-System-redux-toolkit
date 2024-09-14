@@ -1,0 +1,35 @@
+.add-edit-user{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    border : 1px solid lightgray;
+    padding-bottom: 40px;
+    border-radius: 6px;
+    width: 40%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+/* .username-container, .email-container, .phone-container{
+    display: flex;
+    gap: 10px;
+    
+} */
+
+input {
+    height: 25px;
+    width: 100%;
+}
+/* .email-container, .phone-container input{
+    margin-left: 20px;
+} */
+
+.input-error{
+    margin-top: 2px;
+    color: red;
+}
